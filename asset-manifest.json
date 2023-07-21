@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/prueba_tecnica/static/css/main.4152c3d3.css",
+    "main.js": "/prueba_tecnica/static/js/main.94b91d92.js",
+    "static/media/Río_Cauca.jpg": "/prueba_tecnica/static/media/Río_Cauca.c1e662348f25d8761680.jpg",
+    "static/media/mapa.png": "/prueba_tecnica/static/media/mapa.e1a15c82aeebd74637cc.png",
+    "static/media/popayan.jpg": "/prueba_tecnica/static/media/popayan.08ebeef1af21f4aa7deb.jpg",
+    "static/media/guambia.jpg": "/prueba_tecnica/static/media/guambia.d553db6fde3f231a5431.jpg",
+    "static/media/logo.png": "/prueba_tecnica/static/media/logo.df5a43f05c9bb11170b7.png",
+    "static/media/colibri.jpg": "/prueba_tecnica/static/media/colibri.a9e342850ecc2d37f1ef.jpg",
+    "static/media/fondo.jpg": "/prueba_tecnica/static/media/fondo.844698e306792794c039.jpg",
+    "static/media/tiktok.png": "/prueba_tecnica/static/media/tiktok.39d5e262d64bad4ff576.png",
+    "index.html": "/prueba_tecnica/index.html",
+    "main.4152c3d3.css.map": "/prueba_tecnica/static/css/main.4152c3d3.css.map",
+    "main.94b91d92.js.map": "/prueba_tecnica/static/js/main.94b91d92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4152c3d3.css",
+    "static/js/main.94b91d92.js"
+  ]
+}
