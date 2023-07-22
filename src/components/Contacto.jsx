@@ -36,23 +36,27 @@ function Contacto() {
       <style jsx>
         {`
           .contact {
-            width: 100%;
+            width: 35%;
             padding: 3%;
             position: absolute;
             z-index: -1;
             top: 15%;
             border-radius: 12px;
+            box-shadow: 2px 2px 2px 2px;
+            border-radius: 12px;
+            left:10%;
+            top: 25%;
           }
           .contact p {
             font-size: 1.5rem;
             font-weight: bold;
           }
           .logo-Crea {
-            width: 90%;
+            width: 40%;
             position: absolute;
             z-index: -1;
-            left: 5%;
-            top: 45%;
+            left: 55%;
+            top: 35%;
             background-color: rgba(255, 255, 255, .5);
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
@@ -61,12 +65,12 @@ function Contacto() {
             width: 80%;
           }
           .follow {
-            width: 80%;
+            width: 40%;
             padding: 1.5%;
             position: absolute;
             display: flex;
             z-index: 3;
-            left: 10%;
+            left: 55%;
             top: 75%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
@@ -83,6 +87,58 @@ function Contacto() {
             width: 10%;
             margin-right: 20%;
             border-radius: 5px
+          }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .contact {
+              width: 100%;
+              padding: 3%;
+              position: absolute;
+              z-index: -1;
+              left: 0%;
+              top: 15%;
+              border-radius: 12px;
+            }
+            .contact p {
+              font-size: 1.5rem;
+              font-weight: bold;
+            }
+            .logo-Crea {
+              width: 90%;
+              position: absolute;
+              z-index: -1;
+              left: 5%;
+              top: 50%;
+              background-color: rgba(255, 255, 255, .5);
+              box-shadow: 2px 2px 2px 2px;
+              border-radius: 12px;
+            }
+            .logo-CreaTIC {
+              width: 80%;
+            }
+            .follow {
+              width: 80%;
+              padding: 1.5%;
+              position: absolute;
+              display: flex;
+              z-index: 3;
+              left: 10%;
+              top: 75%;
+              box-shadow: 2px 2px 2px 2px;
+              border-radius: 12px;
+              color: #000;
+            }
+            .follow h3 {
+              margin-left: 10%;
+            }
+            .redes {
+              display: flex;
+              margin-left: 5%;
+            }
+            .logo {
+              width: 10%;
+              margin-right: 20%;
+              border-radius: 5px
+            }
           }
         `}
       </style>
