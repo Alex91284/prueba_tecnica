@@ -73,12 +73,12 @@ function Registro() {
       <style jsx>
         {`
           .forma {
-            width: 80%;
+            width: 90%;
             position: absolute;
             padding: 2%;
             z-index: -1;
-            left: 10%;
-            top: 20%;
+            left: 5%;
+            top: 12%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
           }
@@ -112,12 +112,12 @@ function Registro() {
             border-radius: 12px;
           }
           .imagenes {
-            width: 80%;
+            width: 90%;
             position: absolute;
             padding: 2%;
             z-index: 3;
-            left: 10%;
-            top: 85%;
+            left: 5%;
+            top: 52%;
             background-color: rgba(255, 255, 255, .5);
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;

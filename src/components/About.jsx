@@ -59,7 +59,7 @@ function About() {
             display: flex;
             z-index: 3;
             left: 15%;
-            top: 140%;
+            top: 115%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
             color: #black;

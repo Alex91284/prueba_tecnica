@@ -96,7 +96,7 @@ main .imagenes {
         width: 80%;
         display: grid;
         position: absolute;
-        z-index: -2;
+        z-index: -1;
         left: 10%;
         top: 20%;
         box-shadow: 2px 2px 2px 2px;
@@ -164,13 +164,15 @@ main .imagenes {
         margin: 0%;
         padding: 0%;
     }
-
+    .fondo {
+        display: none !important;
+    }
     main .mapa {
         width: 80%;
         position: absolute;
-        z-index: 3;
+        z-index: -1;
         left: 10%;
-        top: 40%;
+        top: 10%;
         box-shadow: 2px 2px 2px 2px;
         border-radius: 12px;
     }
@@ -181,7 +183,7 @@ main .imagenes {
         position: absolute;
         z-index: 3;
         left: 10%;
-        top: 120%;
+        top: 60%;
         background-color: rgba(255, 255, 255, .5);
         box-shadow: 2px 2px 2px 2px;
         border-radius: 12px;
@@ -209,7 +211,7 @@ main .imagenes {
         display: flex;
         z-index: 3;
         left: 10%;
-        top: 210%;
+        top: 120%;
         margin-bottom: 15%;
         box-shadow: 2px 2px 2px 2px;
         border-radius: 12px;

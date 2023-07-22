@@ -36,13 +36,11 @@ function Contacto() {
       <style jsx>
         {`
           .contact {
-            width: 80%;
+            width: 100%;
             padding: 3%;
             position: absolute;
             z-index: -1;
-            left: 10%;
-            top: 20%;
-            box-shadow: 2px 2px 2px 2px;
+            top: 15%;
             border-radius: 12px;
           }
           .contact p {
@@ -50,11 +48,11 @@ function Contacto() {
             font-weight: bold;
           }
           .logo-Crea {
-            width: 80%;
+            width: 90%;
             position: absolute;
-            z-index: 3;
-            left: 10%;
-            top: 70%;
+            z-index: -1;
+            left: 5%;
+            top: 45%;
             background-color: rgba(255, 255, 255, .5);
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
@@ -69,7 +67,7 @@ function Contacto() {
             display: flex;
             z-index: 3;
             left: 10%;
-            top: 95%;
+            top: 75%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
             color: #000;
