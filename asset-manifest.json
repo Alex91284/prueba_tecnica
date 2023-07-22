@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/prueba_tecnica/static/css/main.7fcf17cf.css",
-    "main.js": "/prueba_tecnica/static/js/main.6368cf8a.js",
+    "main.js": "/prueba_tecnica/static/js/main.42c65859.js",
     "static/media/Río_Cauca.jpg": "/prueba_tecnica/static/media/Río_Cauca.c1e662348f25d8761680.jpg",
     "static/media/mapa.png": "/prueba_tecnica/static/media/mapa.e1a15c82aeebd74637cc.png",
     "static/media/popayan.jpg": "/prueba_tecnica/static/media/popayan.08ebeef1af21f4aa7deb.jpg",
@@ -12,10 +12,10 @@
     "static/media/tiktok.png": "/prueba_tecnica/static/media/tiktok.39d5e262d64bad4ff576.png",
     "index.html": "/prueba_tecnica/index.html",
     "main.7fcf17cf.css.map": "/prueba_tecnica/static/css/main.7fcf17cf.css.map",
-    "main.6368cf8a.js.map": "/prueba_tecnica/static/js/main.6368cf8a.js.map"
+    "main.42c65859.js.map": "/prueba_tecnica/static/js/main.42c65859.js.map"
   },
   "entrypoints": [
     "static/css/main.7fcf17cf.css",
-    "static/js/main.6368cf8a.js"
+    "static/js/main.42c65859.js"
   ]
 }
