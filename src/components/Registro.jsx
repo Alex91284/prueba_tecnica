@@ -73,11 +73,11 @@ function Registro() {
       <style jsx>
         {`
           .forma {
-            width: 80%;
+            width: 40%;
             position: absolute;
             padding: 2%;
             z-index: -1;
-            left: 10%;
+            left: 5%;
             top: 20%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
@@ -112,12 +112,12 @@ function Registro() {
             border-radius: 12px;
           }
           .imagenes {
-            width: 80%;
+            width: 35%;
             position: absolute;
             padding: 2%;
             z-index: 3;
-            left: 10%;
-            top: 85%;
+            left: 55%;
+            top: 15%;
             background-color: rgba(255, 255, 255, .5);
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
@@ -132,15 +132,15 @@ function Registro() {
             position: absolute;
             left:5%;
             top: 20%;
-          }}
+          }
           .follow {
             width: 35%;
             padding: 1.5%;
             position: absolute;
             display: flex;
             z-index: 3;
-            left: 10%;
-            top: 70%;
+            left: 55%;
+            top: 100%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
             color: #000;
@@ -156,6 +156,93 @@ function Registro() {
             width: 10%;
             margin-right: 20%;
             border-radius: 5px
+          }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .forma {
+            width: 90%;
+            position: absolute;
+            padding: 2%;
+            z-index: -1;
+            left: 5%;
+            top: 12%;
+            box-shadow: 2px 2px 2px 2px;
+            border-radius: 12px;
+          }
+          .forma input {
+            width: 100%;
+            margin-bottom: 2%;
+            background-color: rgba(183, 188, 187, .6);
+            font-size: 1.5rem;
+            font-weight:bold;
+            border-radius: 12px;
+          }
+          .forma button {
+            width: 100%;
+            margin-bottom: 2%;
+            background-color: rgb(216, 169, 8 );
+            font-size: 1.5rem;
+            font-weight:bold;
+            border-radius: 12px;
+          }
+          .forma p {
+            text-align: center;
+            font-weight:bold;            
+            font-size: 1.5rem;
+          }
+          .forma .registro {
+            width: 100%;
+            margin-bottom: 2%;
+            background-color: rgba(183, 188, 187, .3);
+            font-size: 1.5rem;
+            font-weight:bold;
+            border-radius: 12px;
+          }
+          .imagenes {
+            width: 90%;
+            position: absolute;
+            padding: 2%;
+            z-index: 3;
+            left: 5%;
+            top: 52%;
+            background-color: rgba(255, 255, 255, .5);
+            box-shadow: 2px 2px 2px 2px;
+            border-radius: 12px;
+          }
+          .imagenes p{
+            padding: 0% 4% ;
+            font-size: 1.5rem;
+            font-weight: bold
+          }
+          .popayan {
+            width:90%;
+            position: absolute;
+            left:5%;
+            top: 20%;
+          }
+          .follow {
+            width: 90%;
+            padding: 1.5%;
+            position: absolute;
+            display: flex;
+            z-index: 3;
+            left: 5%;
+            top: 120%;
+            box-shadow: 2px 2px 2px 2px;
+            border-radius: 12px;
+            color: #000;
+          }
+          .follow h3 {
+            margin-left: 10%;
+          }
+          .redes {
+            display: flex;
+            margin-left: 5%;
+          }
+          .logo {
+            width: 10%;
+            margin-right: 20%;
+            border-radius: 5px
+          }
           }
         `}
       </style>

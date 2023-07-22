@@ -53,13 +53,13 @@ function About() {
             text-align: justify;
           }
           .follow {
-            width: 75%;
+            width: 35%;
             padding: 1.5%;
             position: absolute;
             display: flex;
             z-index: 3;
-            left: 15%;
-            top: 140%;
+            left: 55%;
+            top: 100%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
             color: #black;
@@ -75,6 +75,32 @@ function About() {
             width: 10%;
             margin-right: 20%;
             border-radius: 5px
+          }
+          @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+            .follow {
+            width: 90%;
+            padding: 1.5%;
+            position: absolute;
+            display: flex;
+            z-index: 3;
+            left: 5%;
+            top: 110%;
+            box-shadow: 2px 2px 2px 2px;
+            border-radius: 12px;
+            color: #black;
+          }
+          .follow h3 {
+            margin-left: 10%;
+          }
+          .redes {
+            display: flex;
+            margin-left: 5%;
+          }
+          .logo {
+            width: 10%;
+            margin-right: 20%;
+            border-radius: 5px
+          }
           }
         `}
       </style>
