@@ -8,7 +8,9 @@ import tiktok from '../images/tiktok.png'
 function Contacto() {
   return (
     <div>
-      <Fondo />
+      <div className="fondo">
+        <Fondo/>
+      </div>
       <div className="contact">
         <p>
           Vereda el Cofre, Parcelación la
@@ -34,12 +36,12 @@ function Contacto() {
       <style jsx>
         {`
           .contact {
-            width: 45%;
+            width: 80%;
             padding: 3%;
             position: absolute;
-            z-index: 3;
+            z-index: -1;
             left: 10%;
-            top: 40%;
+            top: 20%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
           }
@@ -48,26 +50,29 @@ function Contacto() {
             font-weight: bold;
           }
           .logo-Crea {
-            width: 35%;
+            width: 80%;
             position: absolute;
             z-index: 3;
-            left: 60%;
-            top: 40%;
+            left: 10%;
+            top: 70%;
             background-color: rgba(255, 255, 255, .5);
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
           }
+          .logo-CreaTIC {
+            width: 80%;
+          }
           .follow {
-            width: 35%;
+            width: 80%;
             padding: 1.5%;
             position: absolute;
             display: flex;
             z-index: 3;
-            left: 60%;
-            top: 100%;
+            left: 10%;
+            top: 95%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
-            color: #fff;
+            color: #000;
           }
           .follow h3 {
             margin-left: 10%;

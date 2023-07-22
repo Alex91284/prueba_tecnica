@@ -1,0 +1,233 @@
+main {
+    width: 100%;
+    display: flex;
+}
+
+main .mapa {
+    width: 45%;
+    position: absolute;
+    z-index: 3;
+    left: 10%;
+    top: 15%;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 12px;
+}
+
+main .imagenes {
+    width: 33%;
+    height: 590px;
+    position: absolute;
+    z-index: 3;
+    left: 60%;
+    top: 15%;
+    background-color: rgba(255, 255, 255, .5);
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 12px;
+}
+
+.rio {
+    width: 95%;
+    position: absolute;
+    z-index: 3;
+    left: 2.5%;
+    top: 1%;
+    border-radius: 12px;
+}
+
+.fotos {
+    width: 100%;
+    margin-top: 63%;
+    margin-left: 3%;
+    display: flex;
+}
+
+.animales {
+    width: 40%;
+    margin-top: 3%;
+    margin-right: 3%;
+    border-radius: 12px;
+}
+
+.personas {
+    width: 45%;
+    margin-top: 3%;
+    border-radius: 12px;
+}
+
+.follow {
+    width: 33%;
+    padding: 1.5%;
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    left: 60%;
+    top: 102%;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.follow h3 {
+    margin-left: 10%;
+}
+
+.redes {
+    display: flex;
+    margin-left: 5%;
+}
+
+.logo {
+    width: 10%;
+    margin-right: 20%;
+    border-radius: 5px
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+    main {
+        margin: 0%;
+        padding: 0%;
+        display: grid;
+    }
+    .fondo {
+        display: none !important;
+    }
+
+    main .mapa {
+        width: 80%;
+        display: grid;
+        position: absolute;
+        z-index: -2;
+        left: 10%;
+        top: 20%;
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 12px;
+    }
+
+    main .imagenes {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        z-index: 3;
+        left: 10%;
+        top: 105%;
+        background-color: rgba(255, 255, 255, .5);
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 12px;
+    }
+    .fotos {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .animales {
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 3%;
+    }
+    .personas {
+        width: 45%;
+        margin-top: 3%;
+    }
+
+    .follow {
+        width: 80%;
+        padding: 1.5%;
+        position: absolute;
+        display: flex;
+        z-index: 3;
+        left: 10%;
+        top: 200%;
+        margin-bottom: 15%;
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 12px;
+        color: #5c5757;
+    }
+
+    .follow h3 {
+        margin-left: 10%;
+    }
+
+    .redes {
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .logo {
+        width: 10%;
+        margin-right: 20%;
+        border-radius: 5px
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    main {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    main .mapa {
+        width: 80%;
+        position: absolute;
+        z-index: 3;
+        left: 10%;
+        top: 40%;
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 12px;
+    }
+
+    main .imagenes {
+        width: 80%;
+        height: auto;
+        position: absolute;
+        z-index: 3;
+        left: 10%;
+        top: 120%;
+        background-color: rgba(255, 255, 255, .5);
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 12px;
+    }
+    .fotos {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .animales {
+        width: 40%;
+        margin-top: 3%;
+        margin-right: 3%;
+    }
+    .personas {
+        width: 45%;
+        margin-top: 3%;
+    }
+
+    .follow {
+        width: 80%;
+        padding: 1.5%;
+        position: absolute;
+        display: flex;
+        z-index: 3;
+        left: 10%;
+        top: 210%;
+        margin-bottom: 15%;
+        box-shadow: 2px 2px 2px 2px;
+        border-radius: 12px;
+        color: #5c5757;
+    }
+
+    .follow h3 {
+        margin-left: 10%;
+    }
+
+    .redes {
+        display: flex;
+        margin-left: 5%;
+    }
+
+    .logo {
+        width: 10%;
+        margin-right: 20%;
+        border-radius: 5px
+    }
+}

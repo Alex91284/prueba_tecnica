@@ -53,16 +53,16 @@ function About() {
             text-align: justify;
           }
           .follow {
-            width: 35%;
+            width: 75%;
             padding: 1.5%;
             position: absolute;
             display: flex;
             z-index: 3;
-            left: 60%;
-            top: 100%;
+            left: 15%;
+            top: 140%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
-            color: #fff;
+            color: #black;
           }
           .follow h3 {
             margin-left: 10%;

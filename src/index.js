@@ -5,13 +5,13 @@ import './index.css';
 import App from './App';
 import { store } from './redux/store'
 import { HashRouter } from 'react-router-dom';
-import Menu from './components/Menu'
+import { Nav } from './components/Nav'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <HashRouter>
     <Provider store={store}>
-      <Menu/>
+      <Nav/>
       <App />
     </Provider>
   </HashRouter>
