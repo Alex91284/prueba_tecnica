@@ -43,7 +43,9 @@ function Registro() {
  
   return (
     <div>
-      <Fondo />
+      <div className="fondo">
+        <Fondo/>
+      </div>
       <form className="forma" onSubmit={handleSubmint}>
         <input type="text" name="email" placeholder='  Correo' onChange={handleChange}/>
         <input type="text" name='password' placeholder='  Contraseña' onChange={handleChange}/>
@@ -56,7 +58,7 @@ function Registro() {
           Contenido multimedia muy llamativo
         </p>
         <div className="fotos">
-          <img src={popayan} alt="city" className="poapayan" />
+          <img src={popayan} alt="city" className="popayan" />
           <img src={puma} alt="puma" className="animal" />
         </div>
       </div>
@@ -71,12 +73,12 @@ function Registro() {
       <style jsx>
         {`
           .forma {
-            width: 40%;
+            width: 80%;
             position: absolute;
             padding: 2%;
-            z-index: 3;
+            z-index: -1;
             left: 10%;
-            top: 30%;
+            top: 20%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
           }
@@ -110,12 +112,12 @@ function Registro() {
             border-radius: 12px;
           }
           .imagenes {
-            width: 30%;
+            width: 80%;
             position: absolute;
             padding: 2%;
             z-index: 3;
-            left: 60%;
-            top: 15%;
+            left: 10%;
+            top: 85%;
             background-color: rgba(255, 255, 255, .5);
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
@@ -126,22 +128,22 @@ function Registro() {
             font-weight: bold
           }
           .popayan {
-            width:100%;
-            z-index: 3;
-            left:60%;
+            width:90%;
+            position: absolute;
+            left:5%;
             top: 20%;
-          }
+          }}
           .follow {
             width: 35%;
             padding: 1.5%;
             position: absolute;
             display: flex;
             z-index: 3;
-            left: 60%;
-            top: 100%;
+            left: 10%;
+            top: 70%;
             box-shadow: 2px 2px 2px 2px;
             border-radius: 12px;
-            color: #fff;
+            color: #000;
           }
           .follow h3 {
             margin-left: 10%;

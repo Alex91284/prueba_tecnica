@@ -1,0 +1,59 @@
+.menu {
+    width: 100%;
+    padding: 1.3rem;
+    background-color: #c7c9ca;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 9rem;
+    font-weight: bold
+}
+.links {
+    margin-left: 10%;    
+}
+.burguer {
+    display: none;
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+.menu {
+    background-color: #CACAC7;
+    align-items: center;
+    font-size: 1.5rem;
+}    
+a {
+    color: black;
+    display: block;
+    font-weight: bold
+}
+.links {
+    position: absolute;
+    top: -700px;
+    left: -2000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center    
+}
+.links.active {
+    position: initial;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+   }
+   .burguer{
+    display: inline;
+   }
+
+@media(max-width: 575px) {
+
+}
+} 
